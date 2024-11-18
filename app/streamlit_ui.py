@@ -125,7 +125,7 @@ with st.expander("🎯 Try the Model", expanded=True):
 st.markdown("<h3 >Cucumber leaf Disease Recognition</h3>", unsafe_allow_html=True)
 
 # Intialize Cucumber Fruit maturity model
-cucumber_fruit_maturity_model_path = "/media/ola/608411B684118FA0/cv project/models/runs/detect/train/weights/best.pt"
+cucumber_fruit_maturity_model_path = "/media/ola/608411B684118FA0/cv project/models/Cucumber Disease Recognition model/best.pt"
 cucumber_fruit_maturity_model = CucumberDetection(model_path=cucumber_fruit_maturity_model_path)
 
 with st.expander("🎯 Try the Model", expanded=True):
