@@ -25,4 +25,4 @@
     
   3.run UI with 
     a)ensure you are on app folder in terminal then 
-    b)run ```streamlit run streamlit_ui.py```
+    b)run ```streamlit run app/streamlit_ui.py```
